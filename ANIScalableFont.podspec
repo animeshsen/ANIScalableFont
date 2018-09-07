@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "Scale font size based on screen size of iOS device"
   s.description  = "Scale font size based on screen size of iOS device"
-  # s.homepage     = ""
+  s.homepage     = "https://github.com/animeshsen/"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
