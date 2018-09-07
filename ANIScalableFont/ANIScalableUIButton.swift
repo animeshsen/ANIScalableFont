@@ -10,7 +10,7 @@ import UIKit
 
 class ANIScalableUIButton: UIButton {
     
-    @IBInspectable var protraitScaling: Bool = true
+    @IBInspectable var widthScaling: Bool = true
     let baseScreenHeight:CGFloat = 568
     let baseScreenWidth:CGFloat = 320
     var basePoinSize:CGFloat?
@@ -32,7 +32,7 @@ class ANIScalableUIButton: UIButton {
     
     func getMultiplier() -> CGFloat {
        
-        if protraitScaling
+        if widthScaling
         {
             return  (UIScreen.main.bounds.width - baseScreenWidth) / baseScreenWidth
         }

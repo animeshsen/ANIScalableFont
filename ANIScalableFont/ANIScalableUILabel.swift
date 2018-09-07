@@ -10,7 +10,7 @@ import UIKit
 
 class ANIScalableUILabel: UILabel {
 
-    @IBInspectable var protraitScaling: Bool = true
+    @IBInspectable var widthScaling: Bool = true
     let baseScreenHeight:CGFloat = 568
     let baseScreenWidth:CGFloat = 320
     var basePoinSize:CGFloat?
@@ -32,7 +32,7 @@ class ANIScalableUILabel: UILabel {
     
     func getMultiplier() -> CGFloat {
         
-        if protraitScaling
+        if widthScaling
         {
             return  (UIScreen.main.bounds.width - baseScreenWidth) / baseScreenWidth
         }

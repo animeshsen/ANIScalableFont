@@ -10,7 +10,7 @@ import UIKit
 
 class ANIScalableUITextField: UITextField {
     
-    @IBInspectable var protraitScaling: Bool = true
+    @IBInspectable var widthScaling: Bool = true
  
     let baseScreenHeight:CGFloat = 568
     let baseScreenWidth:CGFloat = 320
@@ -34,7 +34,7 @@ class ANIScalableUITextField: UITextField {
     
     func getMultiplier() -> CGFloat {
         
-        if protraitScaling
+        if widthScaling
         {
             return  (UIScreen.main.bounds.width - baseScreenWidth) / baseScreenWidth
         }
