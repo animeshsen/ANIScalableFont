@@ -11,6 +11,7 @@
 		7600D95C214274380093D8FB /* ANIScalableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D959214274380093D8FB /* ANIScalableUITextField.swift */; };
 		7600D95D214274380093D8FB /* ANIScalableUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D95A214274380093D8FB /* ANIScalableUILabel.swift */; };
 		7600D95E214274380093D8FB /* ANIScalableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7600D95B214274380093D8FB /* ANIScalableUIButton.swift */; };
+		76372BAD2143AC9600682070 /* ANIPercentNSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76372BAC2143AC9600682070 /* ANIPercentNSLayoutConstraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7600D959214274380093D8FB /* ANIScalableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANIScalableUITextField.swift; sourceTree = "<group>"; };
 		7600D95A214274380093D8FB /* ANIScalableUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANIScalableUILabel.swift; sourceTree = "<group>"; };
 		7600D95B214274380093D8FB /* ANIScalableUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANIScalableUIButton.swift; sourceTree = "<group>"; };
+		76372BAC2143AC9600682070 /* ANIPercentNSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANIPercentNSLayoutConstraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7600D95B214274380093D8FB /* ANIScalableUIButton.swift */,
 				7600D95A214274380093D8FB /* ANIScalableUILabel.swift */,
 				7600D959214274380093D8FB /* ANIScalableUITextField.swift */,
+				76372BAC2143AC9600682070 /* ANIPercentNSLayoutConstraint.swift */,
 				7600D952214274260093D8FB /* Info.plist */,
 			);
 			path = ANIScalableFont;
@@ -143,6 +146,7 @@
 				7600D95E214274380093D8FB /* ANIScalableUIButton.swift in Sources */,
 				7600D95C214274380093D8FB /* ANIScalableUITextField.swift in Sources */,
 				7600D95D214274380093D8FB /* ANIScalableUILabel.swift in Sources */,
+				76372BAD2143AC9600682070 /* ANIPercentNSLayoutConstraint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
