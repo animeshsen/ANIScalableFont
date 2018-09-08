@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "ANIScalableFont"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Scale font size based on screen size of iOS device"
   s.description  = "Scale font size based on screen size of iOS device"
   s.homepage     = "https://github.com/animeshsen/"
