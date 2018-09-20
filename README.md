@@ -11,5 +11,5 @@ Chage the class in Interface builder to:
 </br> ANIScalableUIButton
 
 # Note
-By default it scale font size respect to screen width. It can be scale respect to height by changing "Width Scaling" property to "off" in interface builder.
+By default it scale font size respect to screen width. It can be scale respect to height by changing "Width Scaling" property to "off" in attributes inspector.
 
